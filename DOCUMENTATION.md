@@ -109,7 +109,7 @@ The script filters a few noisy **RuntimeWarning** messages from `sklearn.utils.e
 From the project root, with your virtual environment activated:
 
 ```bash
-cd "/path/to/Churn Prediction"
+cd "/path/to/customer-churn-prediction"
 source venv/bin/activate
 python3 eda_telco_churn.py
 ```

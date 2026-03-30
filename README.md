@@ -1,5 +1,7 @@
 # Telco Customer Churn Prediction
 
+**Repository:** [github.com/sammatnt/customer-churn-prediction](https://github.com/sammatnt/customer-churn-prediction)
+
 End-to-end **binary classification** project predicting whether a telecom customer will churn. Built as a **portfolio-ready** workflow: exploratory analysis, reproducible preprocessing, two baseline models, evaluation, and **MLflow** experiment tracking.
 
 <p align="left">
@@ -77,7 +79,7 @@ Patterns align with typical telecom behavior and the project’s EDA visuals:
 ## Repository layout
 
 ```
-Churn Prediction/
+customer-churn-prediction/
 ├── churn.csv                 # Dataset
 ├── train_churn_models.py     # Training, metrics, MLflow logging
 ├── eda_telco_churn.py        # EDA figures (PNG)
@@ -95,8 +97,8 @@ Churn Prediction/
 
 ```bash
 # Clone and enter the project
-git clone <your-repo-url>
-cd "Churn Prediction"
+git clone https://github.com/sammatnt/customer-churn-prediction.git
+cd customer-churn-prediction
 
 # Virtual environment
 python3 -m venv venv
